@@ -1,6 +1,6 @@
-n=int(input("Enter the vakue"))
+n=int(input("Enter the number"))
 if(n<=17):
-    dif=17-n
+   print(17-n)
 else:
-    dif=(n-17)*2
-print(dif)
+    print((n-17)*2)
+
