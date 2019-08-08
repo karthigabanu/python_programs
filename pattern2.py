@@ -13,4 +13,4 @@ def p(n):
             print("*", end=" ") 
         print("\r") 
 n = 5
-(n) 
+p(n) 
