@@ -1,8 +1,7 @@
-a=input("enter a string")
-r=''
-for i  in a:
-    r=i+r
-if r==a:
-    print("palindrome")
-else:
-    print("not a palindrome")
+def palin(s):
+    if s == s[::-1]:
+        print('Is a palindrome')
+    else:
+        print('Not a palindrome')
+s=str(input('enter a string'))
+palin(s)
