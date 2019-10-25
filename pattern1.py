@@ -1,13 +1,14 @@
-"""pattern program\
+###"pattern program\
 *
 **
 ***
 ****
 *****"""
-def p(n):
-    for i in range(0,n):
-        for j in range(0,i+1):
-            print("*",end="")
-        print("\r")
-n=5
-p(n)
+###
+def pat(n):
+    l=[]
+    for i in range(1,n+1):
+        l.append('* '*i)
+    print('\n'.join(l))
+n=int(input('enter a number'))
+pat(n)
